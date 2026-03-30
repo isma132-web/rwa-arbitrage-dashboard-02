@@ -1,0 +1,54 @@
+
+  "name": "rwa-arbitrage-bot",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "compile": "hardhat compile",
+    "test": "hardhat test"
+  },
+  "dependencies": {
+    "next": "14.2.3",
+    "react": "^18.3.0",
+    "react-dom": "^18.3.0",
+
+    "ethers": "^6.12.1",
+    "@ethersproject/address": "^5.7.0",
+
+    "@1inch/fusion-sdk": "^2.0.0",
+    "@1inch/cross-chain-sdk": "^1.1.0",
+
+    "@balancer-labs/sdk": "^1.1.6",
+    "@balancer-labs/typechain": "^1.1.2",
+
+    "@walletconnect/modal": "^2.6.2",
+    "@walletconnect/ethereum-provider": "^2.13.0",
+    "@web3modal/ethers": "^4.1.1",
+
+    "@supabase/supabase-js": "^2.43.4",
+
+    "axios": "^1.7.2",
+    "dotenv": "^16.4.5",
+    "zod": "^3.23.8",
+
+    "framer-motion": "^11.2.6",
+    "lucide-react": "^0.390.0",
+    "clsx": "^2.1.1",
+    "tailwind-merge": "^2.3.0"
+  },
+"dependencies": {
+    "ethers": "^6.11.1",
+    "@balancer-labs/sdk": "latest",
+    "@1inch/fusion-sdk": "latest",
+    "dotenv": "^16.4.5",
+    "next": "latest",
+    "react": "latest",
+    "react-dom": "latest"
+  },
+  "engines": {
+    "node": ">=18.17.0"
+  }
+}
