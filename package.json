@@ -1,0 +1,19 @@
+{
+  "name": "rwa-arbitrage-dashboard",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "next": "latest",
+    "react": "latest",
+    "react-dom": "latest",
+    "ethers": "^6.11.1",
+    "@balancer-labs/sdk": "latest",
+    "@1inch/fusion-sdk": "latest",
+    "dotenv": "^16.4.5"
+  }
+}
